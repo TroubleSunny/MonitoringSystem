@@ -1,0 +1,767 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:montseratt;
+}
+/*  Header Start
+==================================== */
+nav{
+    background: white;
+    height: 90px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family:montseratt;
+}
+nav img{
+    height: 90px;
+    padding-left: 20px;
+    padding-top: 2px;
+    float: left;
+}
+label.logo{
+    color: #800000;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #800000;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+a:hover{
+    color: red;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media(max-width:1200px){
+    label.logo{
+        font-size: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    nav img{
+        height: 70px;
+    }
+}
+@media(max-width:925px){
+    label.logo{
+        font-size: 17px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        left: -100%;
+        text-align: center;
+        top:80px;
+        transition: all .5s;
+        z-index: 10;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 20px;
+    }
+    a:hover{
+        background: none;
+        color: rgb(243, 125, 125);
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+}
+/*  End of Header
+==================================== */
+
+/*  Headline start
+==================================== */
+
+#inner-headline{
+	background:#800000; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 0;padding: 0;
+    font-family:montseratt;
+
+}
+
+
+#inner-headline h2.pageTitle{
+	color: white;	
+	display:block;
+	text-transform: capitalize;
+	text-align: center;
+    
+}
+
+/*  Form banner, part banner and buttons start
+==================================== */
+#Form-banner{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family:montseratt;
+}
+#part-banner{
+    padding: 0;
+    font-family:montseratt;
+    margin: 0;
+    background-color: #800000;
+    width: 90%;
+    margin: auto;
+    color: white; 
+}
+#part-banner-specific{
+    padding: 0;
+    font-family:montseratt;
+    margin: 0;
+    background-color:white;
+    width: 90%;
+    margin: auto;
+    color:black; 
+    border-color: #800000;
+    border-style: solid;
+    
+}
+.col-lg-12 h4
+{
+    font-size: 22px;
+}
+.Button-group{
+    margin:0 auto;
+    padding: 30px;
+    text-align: center;
+}
+.btn-primary{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold; 
+    color:#800000; 
+    background-color:white; 
+    border-color:#800000;   
+}
+.btn-primarys{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold; 
+    background-color:#800000; 
+    border-color:#800000;
+    color:white;
+}
+.dropdown-item{
+    color: black;
+    font-size: 16px;
+ 
+}
+
+/*  Form banner,part banner and buttons end
+==================================== */
+
+.form-group{
+    margin:0  auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+.panel-body{
+    margin:0  auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+.Button-group{
+    margin:0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.btn-primary{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold; 
+    color:#800000; 
+    background-color:white; 
+    border-color:#800000;   
+}
+.btn-primarys{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold; 
+    background-color:#800000; 
+    border-color:#800000;
+    color:white;
+}
+.btn-primary:hover{
+    background-color:#800000; 
+    border-color:#800000;
+    color:white;
+}
+.btn-primarys:hover{
+    color:white; 
+    background-color:red; 
+    border-color:red; 
+}
+.btn-success{
+    background-color:#800000; 
+    border-color:#800000;
+    color:white;
+}
+.col-md-11
+{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.col-md-11 select
+{
+    height: 36px;
+    font-size: 18px;
+}
+.col-md-12
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.col-md-12 input
+{
+    height: 36px;
+    font-size: 18px;
+    
+}
+.col-md-8 input
+{
+    height: 36px;
+    font-size: 18px;
+}
+
+.panel-body{
+    
+    font-size: 18px;
+}
+.col-md-4
+{
+    margin-bottom: 15px;
+}
+.col-md-4 select
+{
+    height: 30px;
+    font-size: 18px;
+}
+.col-md-4 label
+{
+    font-size: 18px;   
+}
+.col-md-6 
+{
+    font-size: 18px;
+}
+
+.form-control
+{
+    height: 30px;
+    font-size: 18px;
+   
+}
+.login{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../MonitoringSystem/plugins/home-plugins/img/dan-dimmock-3mt71MKGjQ0-unsplash.jpg) no-repeat;;
+  background-size: cover;
+}
+
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #800000;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #800000;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textboxlogin{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #800000;
+}
+.textboxlogin i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textboxlogin input{
+  border: none;
+  outline: none;
+  background: none;
+  color: #800000;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.loginbtn{
+  width: 100%;
+  background-color:#800000 ;
+  border: 2px solid #800000;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+/*  QAR Form  start
+==================================== */
+.Form-Group1{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    border-color: #800000;
+    border-style: solid;
+    height: auto;
+}
+
+/*  QAR Form  end
+==================================== */
+
+
+
+
+
+/*  Faculty Account start
+==================================== */
+.BannerInfo{
+    font-family:montseratt;
+    margin: 0 auto;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    
+}
+
+.ProgressContents{
+    font-family:montseratt;
+}
+
+.ProgressTabItems{
+    background-color: #800000 ;
+    color: white;
+    padding: 5px;
+    font-family:montseratt;
+    font-size: 16px;
+
+}
+.ProgressTabItems:hover{
+    color: #800000;
+    background-color: white ;
+    transition: .5s;
+}
+.ProgressTabItems:focus{
+    color: #800000;
+    background-color: white ;
+    transition: .5s;
+}
+ 
+.col-sm-9{
+    border-style: solid;
+    border-color: red;
+}
+/*  faculty Account end
+==================================== */
+
+/*  high level start
+==================================== */
+.main-level{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.sidebar{
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background:#800000;
+  overflow: auto;
+}
+.sidebar header{
+  color: #800000;
+  font-size: 28px;
+  line-height: 70px;
+  text-align: center;
+  background: white;
+  user-select: none;
+}
+.sidebar a{
+  display: block;
+  color: white;
+  height: 65px;
+  line-height: 65px;
+  padding-left: 30px;
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid black;
+  border-left: 5px solid transparent;
+}
+.sidebar a:hover, a.active, a.focus{
+  border-left: 5px solid red;
+  color: #800000;
+  background-color: white;
+}
+
+.sidebar a i{
+  font-size: 23px;
+  margin-right: 16px;
+}
+.sidebar a span{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.stuff{
+  padding: 50px;
+  margin-left: 300px;
+}
+.stuff-banner{
+  margin-left: 300px;
+}
+.stuff-banner #inner-headline{
+  height: 70px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.table-main{
+    table-layout: auto;
+    border-collapse: collapse;
+    width:100%;
+    margin-bottom: 15px;
+}
+.table-main td,th,tr{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;  
+    
+}
+
+.table-main tr:nth-child(even){
+    background-color: #dddddd;
+}
+.btn-addbtn
+{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold; 
+    background-color:#800000; 
+    border-color:#800000;
+    color:white;
+}
+
+.containerz
+{
+    display: flex;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+ 
+    
+}
+.containerz.show
+{
+    opacity:1;
+    pointer-events: auto;
+}
+
+.moz{
+    background-color: white;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    height: auto;
+    margin-top: auto;
+    padding:10px;   
+}
+.moz input
+{
+    margin-bottom: 10px;
+}
+.moz select
+{
+    margin-bottom: 20px;
+    
+}
+.Formbtn
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.containerz1
+{
+    display: flex;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+ 
+    
+}
+.containerz1.show
+{
+    opacity:1;
+    pointer-events: auto;
+}
+
+.moz1{
+    background-color: white;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    height: 65%;
+    padding:30px;
+    margin-top: auto;
+}
+.Formbtn1
+{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table-main{
+    overflow: auto;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+
+}
+
+
+.tableContainer
+{
+    overflow-x:scroll; 
+    overflow-y:auto;
+    height: 100%;
+}
+
+.revision {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+}
+
+.revision:after {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+}
+
+.revision[type=checkbox]:before {
+    background: red url("http://i.imgur.com/dR1TM0y.png");
+    background-size: 10px 8px;
+    background-repeat: no-repeat;
+    background-position: 3px 4px;
+    position: absolute;
+    left: 2px;
+    z-index: 2;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    color: red;
+}
+
+.revision[type=checkbox]:checked:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    opacity: 1;
+    left: 0px;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+nav ul
+{
+    list-style: none;
+}
+
+nav a {
+    
+    
+    
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+.drops
+{
+    
+    background: #800000;
+    color: white;
+    display: block;
+    display: inline-block;
+    margin: 0;
+    padding: 1;
+    position: relative;
+    min-width: 30%;
+    font-size: 12px;
+    font-weight: bold;
+}
+nav .dropdown:after {
+    content: ' \25bc';
+}
+
+nav li ul {
+    
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+nav li:hover ul {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+nav li ul li {
+    width: 100%;
+}
+nav li ul a:hover {
+    background: white;
+    color:#800000;
+}
+
+
+.dropbtnd {
+  background-color: white;
+  color: #800000;
+  padding: 16px;
+  font-size: 17px;
+  border: none;
+  
+  font-weight: bold;
+}
+
+.dropdownd {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownd-contentd {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: #800000;
+  max-height:600px;
+  overflow:scroll; 
+}
+
+.dropdownd-contentd a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownd-contentd a:hover {background-color: #800000; color:white;}
+
+.dropdownd:hover .dropdownd-contentd {display: block; }
+
+.dropdownd:hover .dropbtnd {background-color: #800000; color:white;}

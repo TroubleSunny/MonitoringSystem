@@ -1,0 +1,359 @@
+ <input id="college" type="hidden" value="CCIS">
+    <input id="year" type="hidden" value="All">
+    <input id="indexing" type="hidden" value="All">
+<div class="tableContainer">
+<table border="1" style="align-items:center;" class="table-main">
+    <h4>A.4. Research Citation</h4>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>College/Section</th>
+                <th>Research Classification</th>
+                <th>Category</th>
+                <th>University Research Agenda</th>
+                <th>Title of Research</th>
+                <th>Researcher/s (Surname, First Name, M.I.)</th>
+                <th>Nature of Involvement</th>
+                <th>Type of Research</th>
+                <th>Keywords(at least five (5) keywords)</th>
+                <th>Type of Funding</th>
+                <th>Amount of Funding</th>
+                <th>Funding Agency</th>
+                <th>Actual Date Started</th>
+                <th>Target Date of Completion</th>
+                <th>Date Completed</th>
+                <th>Title of Research/Article Cited</th>
+                <th>Title of Article Where Your Research has been cited</th>
+                <th>Author/s Who Cited Your Research</th>
+                <th>Title of the Journal/Books Where Your Article has been cited</th>
+                <th>Volume No. of  the Journal/Book Where Your Article has been cited</th>
+                <th>Issue No. of  the Journal/Book Where Your Article has been cited</th>
+                <th>Page No. of  the Journal Where Your Article has been cited</th>
+                <th>Year of Publication of the Journal Where Your Article has been cited</th>
+                <th>Name of Publisher of the Journal Where Your Article has been cited</th>
+                <th>Indexing Flatform of the Journal Where Your Article has been cited</th>
+                <th>Supporting Documents Submitted</th>
+            </tr>
+        </thead>
+        <tbody>
+                        
+                    <tr>
+                        <td>Mark Marker</td>
+                        <td>CCIS</td>
+                        <td>Study</td>
+                        <td>Research</td>
+                        <td>Accelerating Infrastructure Development through Science and Technology</td>
+                        <td>Statistical Arbitrage Strategies and Profit Potential in Commodity Futures Markets</td>
+                        <td>Giorno Giovani</td>
+                        
+                        
+                        
+                        <td>Co-Lead Researcher</td>
+                        <td>Creative Work </td>
+                        <td>Arbitrage</td>
+                        <td>Self Funded</td>
+                        <td style="text-align:left;">15,000</td>
+                        <td>N/A</td>
+                        <td style="text-align:left;">2020-01-01</td>
+                        <td style="text-align:left;">2020-08-05</td>
+                        
+                        <td style="text-align:left;">2020-08-02</td>
+                        <td style="text-align:left;">Future Market Analysis</td>
+                        <td>Market Breakdown</td>
+                        <td>John Dwight</td>
+                        <td style="text-align:left;">Market statistics</td>
+                        <td style="text-align:left;">Vol no.4</td>
+                        <td style="text-align:left;">45</td>
+                        <td style="text-align:left;">12-43</td>
+                        <td style="text-align:left;">2020</td>
+                        <td style="text-align:left;">Publish Co.</td>
+                        <td style="text-align:left;">Excellence in Research for Australia</td>
+                         
+                        <td>Activity 2.docx</td>
+                    </tr>
+                                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+
+                        <td></td>
+                        <td></td>
+                        <td>Profit</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+
+                        <td></td>
+                        <td></td>
+                        <td>Future</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+
+                        <td></td>
+                        <td></td>
+                        <td>Markets</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+
+                        <td></td>
+                        <td></td>
+                        <td>Commodity</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                            
+                    <tr>
+                        <td>Mark Marker</td>
+                        <td>CCIS</td>
+                        <td>Project</td>
+                        <td>Book Chapter</td>
+                        <td>Protection and Rehabilitation towards Sustainable Development</td>
+                        <td>Delivering Maternal Health: An Examination of Maternal Mortality on a National Scale</td>
+                        <td>Giorno Giovani</td>
+                        
+                        
+                        
+                        <td>Independent Researcher</td>
+                        <td>Applied Research </td>
+                        <td>Maternal</td>
+                        <td>Externally Funded</td>
+                        <td style="text-align:left;">29,000</td>
+                        <td>UN Alliance</td>
+                        <td style="text-align:left;">2018-05-05</td>
+                        <td style="text-align:left;">2018-06-05</td>
+                        
+                        <td style="text-align:left;">2018-05-21</td>
+                        <td style="text-align:left;">Delivering Maternal Health: An Examination of Maternal Mortality on a National Scale</td>
+                        <td>Delivering Maternal Health:</td>
+                        <td>Carl Borweign</td>
+                        <td style="text-align:left;">Global Times</td>
+                        <td style="text-align:left;">42</td>
+                        <td style="text-align:left;">9</td>
+                        <td style="text-align:left;">23-57</td>
+                        <td style="text-align:left;">2018</td>
+                        <td style="text-align:left;">Publish Co.</td>
+                        <td style="text-align:left;">International Refereed Journals</td>
+                         
+                        <td>The LIST.docx</td>
+                    </tr>
+                                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Carl Carlson</td>
+                        
+
+                        <td></td>
+                        <td></td>
+                        <td>Morality</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+
+                        <td></td>
+                        <td></td>
+                        <td>National</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+
+                        <td></td>
+                        <td></td>
+                        <td>Scale</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+
+                        <td></td>
+                        <td></td>
+                        <td>Health</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                        </tbody>
+    </table>
+</div>
